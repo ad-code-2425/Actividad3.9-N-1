@@ -36,5 +36,9 @@ public class MainNMas1 {
             }
         }
 
+        session.close();
+
+        sessionFactory.close();
+
     }
 }
